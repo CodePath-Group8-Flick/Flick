@@ -63,8 +63,7 @@ Flick is a tinder-esque swiping app to find the perfect movie for you!
    * ...
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/CodePath-Group8-Flick/Flick/blob/main/Flick%20wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
