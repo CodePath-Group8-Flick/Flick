@@ -28,22 +28,31 @@ Flick is a tinder-esque swiping app to find the perfect movie for you!
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User is able to log in and log out. 
+* User is able to flick left and right on movies displayed. 
+* User is able to play/view trailer in home screen.
+* User is able to view movies chosen (swiped right on) in selecected view list.  
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User is able to play/view trailer in home screen.
+* User is able to choose streaming services
+* User is able to select the number of movies in list view. 
+
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Log In Screen
+   * User is able to log in to their account
+* Home Screen
+  * User is able to flick left and right on movies displayed.
+  * User is able to play/view trailer in home screen.
+* Movie List Screen
+  * User is able to view movies chosen (swiped right on) in selecected view list.
+* Settings Screen
+  * User can log out
+  * User is able to choose streaming services
+  * User is able to select the number of movies in list view.
 
 ### 3. Navigation
 
