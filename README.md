@@ -1,7 +1,4 @@
-Original App Design Project - README Template
-===
-
-## Flick
+# Flick
 
 ## Table of Contents
 1. [Overview](#Overview)
