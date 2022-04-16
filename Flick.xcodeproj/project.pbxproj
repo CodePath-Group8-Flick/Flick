@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2115E360280A60C600294AEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115E35F280A60C500294AEB /* LoginViewController.swift */; };
+		2115E362280A613400294AEB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115E361280A613400294AEB /* FeedViewController.swift */; };
 		7793B2E1ACF56E8E1BEC791D /* Pods_FlickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D71732D6EE40AB86509D9C /* Pods_FlickTests.framework */; };
 		88EAB8AC4F3AC75440EB7DF4 /* Pods_Flick_FlickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E623CDE81FD48EF115BC6A /* Pods_Flick_FlickUITests.framework */; };
 		B275E068B3ECB2B21862EF50 /* Pods_Flick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448662DB97505F8E834450C4 /* Pods_Flick.framework */; };
 		F11625E827EF873C00CC3679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11625E727EF873C00CC3679 /* AppDelegate.swift */; };
 		F11625EA27EF873C00CC3679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11625E927EF873C00CC3679 /* SceneDelegate.swift */; };
-		F11625EC27EF873C00CC3679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11625EB27EF873C00CC3679 /* ViewController.swift */; };
 		F11625EF27EF873C00CC3679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11625ED27EF873C00CC3679 /* Main.storyboard */; };
 		F11625F127EF874000CC3679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11625F027EF874000CC3679 /* Assets.xcassets */; };
 		F11625F427EF874000CC3679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11625F227EF874000CC3679 /* LaunchScreen.storyboard */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		1CB9C185D99023D4DE5362F0 /* Pods-FlickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickTests.debug.xcconfig"; path = "Target Support Files/Pods-FlickTests/Pods-FlickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2115E35F280A60C500294AEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2115E361280A613400294AEB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		448662DB97505F8E834450C4 /* Pods_Flick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6C957EE4E530620196379E /* Pods-FlickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickTests.release.xcconfig"; path = "Target Support Files/Pods-FlickTests/Pods-FlickTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CFC67201C52363310F106DE /* Pods-Flick-FlickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flick-FlickUITests.release.xcconfig"; path = "Target Support Files/Pods-Flick-FlickUITests/Pods-Flick-FlickUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		F11625E427EF873C00CC3679 /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11625E727EF873C00CC3679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11625E927EF873C00CC3679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F11625EB27EF873C00CC3679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F11625EE27EF873C00CC3679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F11625F027EF874000CC3679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11625F327EF874000CC3679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				1CB9C185D99023D4DE5362F0 /* Pods-FlickTests.debug.xcconfig */,
 				4A6C957EE4E530620196379E /* Pods-FlickTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,11 +143,12 @@
 			children = (
 				F11625E727EF873C00CC3679 /* AppDelegate.swift */,
 				F11625E927EF873C00CC3679 /* SceneDelegate.swift */,
-				F11625EB27EF873C00CC3679 /* ViewController.swift */,
 				F11625ED27EF873C00CC3679 /* Main.storyboard */,
 				F11625F027EF874000CC3679 /* Assets.xcassets */,
 				F11625F227EF874000CC3679 /* LaunchScreen.storyboard */,
 				F11625F527EF874000CC3679 /* Info.plist */,
+				2115E35F280A60C500294AEB /* LoginViewController.swift */,
+				2115E361280A613400294AEB /* FeedViewController.swift */,
 			);
 			path = Flick;
 			sourceTree = "<group>";
@@ -407,8 +409,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11625EC27EF873C00CC3679 /* ViewController.swift in Sources */,
+				2115E360280A60C600294AEB /* LoginViewController.swift in Sources */,
 				F11625E827EF873C00CC3679 /* AppDelegate.swift in Sources */,
+				2115E362280A613400294AEB /* FeedViewController.swift in Sources */,
 				F11625EA27EF873C00CC3679 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
